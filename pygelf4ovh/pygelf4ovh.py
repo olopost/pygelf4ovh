@@ -5,9 +5,13 @@ class GelfOVHHandler(GelfTcpHandler):
     """
     Class to adapt OVH Log management platform
     """
-    def __init__(self, host, port, ovh_token, **kwargs):
+    def __init__(self, ovh_token, **kwargs):
+        """
+        OVH TCP Handler
+        :param ovh_token: OVH API Token
+        """
         self.ovh_token = ovh_token
-        GelfTcpHandler(host, port, **kwargs)
+        GelfTcpHandler.__init__(self, **kwargs)
 
     def convert_record_to_gelf(self, record):
         l = gelf.make(record, self.domain, self.debug, self.version,

@@ -19,8 +19,6 @@ setuptools.setup(
     package_dir={'pygelf4ovh': 'pygelf4ovh'},
     package_data={
         'pygelf4ovh': [
-            'templates/*.html',
-            'templates/base/*.html'
         ],
     },
     classifiers=[
