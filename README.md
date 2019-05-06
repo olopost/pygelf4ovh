@@ -1,11 +1,19 @@
 # pygelf4ovh
 pygelf adaptation that work for OVH Logs Data Platform
 
+## Install
+Just use pypi repository
+~~~bash
+pip install pygelf4ovh
+~~~
+
 ## Usage
+
 Just add GelfOVHHandler in logging handler
 
 ~~~python
 #import pygelf4ovh
+import pygelf4ovh
 import logging
 OVH_URL = 'gra2.logs.ovh.com'
 OVH_PORT = 2202
@@ -24,6 +32,9 @@ logger.addHandler(sh)
 logger.info("my info log")
 
 ~~~
+
+## Some warn
+Pygelf4ovh has been only tested with python3
 
 ## Release note
  - Version 0.3
