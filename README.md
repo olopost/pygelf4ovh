@@ -37,6 +37,8 @@ logger.info("my info log")
 Pygelf4ovh has been only tested with python3
 
 ## Release note
+ - Version 0.4
+  * Solved issue : [issue #1](https://github.com/olopost/pygelf4ovh/issues/1)
  - Version 0.3
    * Add some doc
  - Version 0.2

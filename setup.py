@@ -7,7 +7,7 @@ with open("requirements.txt", "r") as rp:
 
 setuptools.setup(
     name="pygelf4ovh",
-    version="0.3",
+    version="0.4",
     author="Samuel MEYNARD",
     author_email="samuel@meyn.fr",
     description="pygelf adaptation that work for OVH Logs Data Platform",
@@ -16,6 +16,7 @@ setuptools.setup(
     url="https://github.com/olopost/pygelf4ovh",
     install_requires=req,
     packages=setuptools.find_packages(),
+    include_package_data=True,
     package_dir={'pygelf4ovh': 'pygelf4ovh'},
     package_data={
         'pygelf4ovh': [
