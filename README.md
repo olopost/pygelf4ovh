@@ -1,6 +1,15 @@
 # pygelf4ovh
 pygelf adaptation that work for OVH Logs Data Platform
 
+
+[![GitHub issues](https://img.shields.io/github/issues/olopost/pygelf4ovh)](https://github.com/olopost/pygelf4ovh/issues)
+[![GitHub forks](https://img.shields.io/github/forks/olopost/pygelf4ovh)](https://github.com/olopost/pygelf4ovh/network)
+[![GitHub stars](https://img.shields.io/github/stars/olopost/pygelf4ovh)](https://github.com/olopost/pygelf4ovh/stargazers)
+[![GitHub license](https://img.shields.io/github/license/olopost/pygelf4ovh)](https://github.com/olopost/pygelf4ovh/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Folopost%2Fpygelf4ovh)
+
+
+
 ## Install
 Just use pypi repository
 ~~~bash
